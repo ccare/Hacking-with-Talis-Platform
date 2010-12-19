@@ -24,10 +24,10 @@ query = <<endofquery
 	SELECT ?easting ?northing ?long ?lat
 	WHERE {
 	  ?x skos:notation "#{postcode}"^^postcode:Postcode ;
-	  spatialrelations:easting ?easting ;
-	  spatialrelations:northing ?northing ;
-	  geo:long ?long ;
-	  geo:lat ?lat .
+	     spatialrelations:easting ?easting ;
+	     spatialrelations:northing ?northing ;
+	     geo:long ?long ;
+	     geo:lat ?lat .
 	}
 endofquery
 
