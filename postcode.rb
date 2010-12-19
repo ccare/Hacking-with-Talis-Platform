@@ -7,12 +7,12 @@ require "cgi"
 postcode = 'CV4 7AL'
 
 if ARGV.length > 1
-  $stderr.puts "please supply one argument (the postcode you're interested in)"
+  $stderr.puts "Please supply one argument (the postcode you're interested in)"
   exit 1 
 elsif ARGV.length == 1
   postcode = ARGV[0]
 else 
-  puts 'you did not supply a postcode. Using university of Warwick as default location'
+  puts 'You did not supply a postcode. Using University of Warwick as default location'
 end
 
 query = <<endofquery
