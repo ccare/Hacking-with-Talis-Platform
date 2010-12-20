@@ -8,3 +8,7 @@ usage: postcode-location.rb 'CV4 7DG'
 
 nb: if you don't provide a postcode it will default to the University of Warwick at CV4 7AL
 
+==NEARBY POSTCODES==
+
+Provide postcode (same as above) but list 10 nearby postcodes
+
