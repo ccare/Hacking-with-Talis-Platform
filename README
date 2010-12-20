@@ -4,7 +4,7 @@ Some scripts from playing around with the Talis Platform...
 
 Provide a postcode and get long/lat and northing/easting info
 
-usage: postcode.rb 'CV4 7DG'
+usage: postcode-location.rb 'CV4 7DG'
 
 nb: if you don't provide a postcode it will default to the University of Warwick at CV4 7AL
 
